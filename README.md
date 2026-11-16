@@ -1,53 +1,53 @@
-# CM2607 – Advanced Mathematics for Data Science
+# Advanced Mathematics for Data Science
 
-**Coursework Part 01 | Academic Year 2026/27**
+**CM2607 · Coursework Part 01 · Academic Year 2026/27**
 
-This repository contains my coursework for the CM2607 Advanced Mathematics for Data Science module at the Informatics Institute of Technology (IIT), Sri Lanka.
+Python coursework for the Advanced Mathematics for Data Science module at the **Informatics Institute of Technology (IIT), Sri Lanka**.
 
-The coursework is completed using Python in Google Colab and focuses on applying mathematical concepts to computational problems.
+> **Status: initial coursework scaffold.** The current notebook contains imports, task headings, and a submission checklist. The mathematical solutions and numerical results have not yet been implemented.
 
-## Coursework Tasks
+[View notebook](CM2607_Coursework.ipynb) · [Open in Google Colab](https://colab.research.google.com/github/Tharul-Fernando/CM2607_Mathematics_Coursework/blob/main/CM2607_Coursework.ipynb)
 
-### Task 01 – Optimisation (10 Marks)
-- Calculate the gradient vector and Hessian matrix using SymPy.
-- Find and classify a stationary point using numerical optimisation.
-- Visualise the loss function using contour plots.
-- Investigate how changes in a coefficient affect the optimum.
+## Planned Coursework
 
-### Task 02 – Differential Equations (10 Marks)
-- Solve an initial-value problem analytically.
-- Verify the solution using SymPy.
-- Solve the equation numerically using SciPy.
-- Compare analytical and numerical solutions.
-- Visualise numerical errors and calculate the definite integral.
+| Area | Planned work |
+| --- | --- |
+| Optimisation | Gradient and Hessian, numerical stationary points, classification, contour plots, and sensitivity analysis |
+| Differential equations | Analytical solution and verification, numerical solution, error visualisation, and integration |
+| Fourier series | Coefficients, partial sums, RMSE, convergence, and the Gibbs phenomenon |
 
-### Task 03 – Fourier Series (10 Marks)
-- Derive and verify Fourier series coefficients.
-- Implement Fourier partial sums using NumPy.
-- Visualise signal approximations.
-- Analyse convergence using root-mean-square error (RMSE).
-- Investigate the Gibbs phenomenon.
+## Technologies
 
-## Technologies Used
+Python · SymPy · NumPy · SciPy · Matplotlib · Jupyter / Google Colab
 
-- **Python** – Main programming language
-- **Google Colab** – Notebook development and execution
-- **SymPy** – Symbolic mathematics
-- **NumPy** – Numerical calculations
-- **SciPy** – Optimisation, differential equations and integration
-- **Matplotlib** – Graphs and visualisations
-- **Git and GitHub** – Version control
+## Getting Started
 
-## Repository Structure
+### Google Colab
 
-```text
-CM2607_Mathematics_Coursework/
-├── coursework_template.ipynb
-├── requirements.txt
-├── .gitignore
-└── README.md
+Open the notebook using the Colab link above and run the imports before working through the task sections. Save your own copy if you want to experiment independently.
+
+### Local Jupyter Notebook
+
+```bash
+git clone https://github.com/Tharul-Fernando/CM2607_Mathematics_Coursework.git
+cd CM2607_Mathematics_Coursework
+python -m pip install -r requirements.txt
+python -m notebook CM2607_Coursework.ipynb
 ```
 
-## Development Workflow
+Using a virtual environment is recommended. Dependencies are listed in [requirements.txt](requirements.txt); versions are currently unpinned.
 
-The coursework is developed in Google Colab, with changes tracked using Git and GitHub. Each task is implemented and verified separately before the final submission.
+## Repository Guide
+
+- [CM2607_Coursework.ipynb](CM2607_Coursework.ipynb) — coursework scaffold and task structure.
+- [requirements.txt](requirements.txt) — Python dependencies.
+
+## Development Approach
+
+Each task will be implemented and verified separately. The notebook includes a final checklist for executed outputs, labelled figures, numerical checks, and submission formatting.
+
+## Author
+
+**Tharul Fernando** — BSc (Hons) Artificial Intelligence and Data Science undergraduate at IIT.
+
+[GitHub](https://github.com/Tharul-Fernando) · [LinkedIn](https://www.linkedin.com/in/tharul-fernando/) · [Email](mailto:tharulnithwara@gmail.com)
